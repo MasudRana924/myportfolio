@@ -1,15 +1,42 @@
 body{
     font-family: 'Viaoda Libre', cursive;
+    margin: 0px;
 }
 .name-highlights{
     color:yellowgreen;
 }
+h1{font-size: 35px;}
+h2{font-size: 28px;}
+h3{font-size: 22px;}
 .half-width{
     width:40%;
     float:left;
     margin-left:5%;
-    padding-left:2%;
+    padding-left:5%;
 }
 .half-width img{
-  width:70%;
+  width:60%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+
+}
+.dream-area{
+
+    background-image: url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position:right;
+}
+section{
+    height:400px;
+    padding-top: 50px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(45deg,green,yellowgreen);
+    padding:10px 20px;
+    color:white;
+    border-radius: 5px;
+    font-weight: 700px;
 }
